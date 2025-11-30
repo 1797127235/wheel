@@ -1,6 +1,4 @@
-#include <cstddef>
 #include<memory>
-#include<iostream>
 template <class T, class Deleter = std::default_delete<T>>
 class unique_ptr
 {
